@@ -1,21 +1,43 @@
 {
-  "name": "indentlines",
-  "displayName": "IndentLines",
-  "description": "Indents selected lines by 4 spaces.",
+  "name": "nested",
+  "displayName": "Nested",
+  "description": "A VS Code extension for nesting and un-nesting items in Markdown.",
   "version": "0.0.1",
+  "icon": "images/nested-logo.png",
   "engines": {
     "vscode": "^1.99.0"
   },
   "categories": [
     "Other"
   ],
-  "activationEvents": [],
+  "activationEvents": [
+    "onCommand:nested.addIndent",
+    "onCommand:nested.removeIndent"
+  ],
   "main": "./out/extension.js",
   "contributes": {
     "commands": [
       {
-        "command": "indentlines.helloWorld",
-        "title": "Hello World"
+        "command": "nested.addIndent",
+        "title": "Add 4 Spaces to Selected Lines"
+      },
+      {
+        "command": "nested.removeIndent",
+        "title": "Remove 4 Spaces from Selected Lines"
+      }
+    ],
+    "keybindings": [
+      {
+        "command": "nested.addIndent",
+        "key": "ctrl+shift+space", 
+        "mac": "cmd+shift+space",
+        "when": "editorTextFocus"
+      },
+      {
+        "command": "nested.removeIndent",
+        "key": "ctrl+shift+backspace", 
+        "mac": "cmd+shift+backspace",
+        "when": "editorTextFocus"
       }
     ]
   },

@@ -1,0 +1,19 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+      {
+        "name": "Launch Extension",
+        "type": "extensionHost",
+        "request": "launch",
+        "program": "${workspaceFolder}/node_modules/vscode/bin/Code",
+        "args": [
+          "--extensionDevelopmentPath=${workspaceFolder}"
+        ],
+        "stopOnEntry": false,
+        "outFiles": [
+          "${workspaceFolder}/out/**/*.js"
+        ]
+      }
+    ]
+  }
+  
