@@ -1,71 +1,46 @@
-# indentlines README
+# Nested
 
-This is the README for your extension "indentlines". After writing up a brief description, we recommend including the following sections.
+![Nested Logo](images/nested-logo.png)
 
-## Features
+**Nested** is a VS Code extension designed to make working with **Markdown** files easier. With **Nested**, you can quickly **nest and un-nest items** in your Markdown documents by adding or removing **4 spaces** at the beginning of selected lines.
 
-Describe specific features of your extension including screenshots of your extension in action. Image paths are relative to this README file.
+### Key Features:
+- **Add 4 spaces** to the beginning of the selected lines to **nest** items.
+- **Remove 4 spaces** from the beginning of the selected lines to **un-nest** items.
+- **Keyboard shortcuts** for both actions:
+  - **Add indentation**: `Ctrl+Shift+Space` (Windows/Linux) or `Cmd+Shift+Space` (Mac)
+  - **Remove indentation**: `Ctrl+Shift+Backspace` (Windows/Linux) or `Cmd+Shift+Backspace` (Mac)
+- Ideal for **Markdown lists**, **headings**, and organizing content.
 
-For example if there is an image subfolder under your extension project workspace:
+### Installation:
 
-\!\[feature X\]\(images/feature-x.png\)
+#### **Option 1: Install from the VS Code Marketplace**
+1. Search for **"Nested"** in the [VS Code Marketplace](https://marketplace.visualstudio.com/).
+2. Click **Install**.
 
-> Tip: Many popular extensions utilize animations. This is an excellent way to show off your extension! We recommend short, focused animations that are easy to follow.
+#### **Option 2: Install Directly from GitHub**
+1. Download the latest `.vsix` package from the [GitHub Releases page](https://github.com/yourusername/nested/releases).
+2. In VS Code, open the **Command Palette** (`Ctrl+Shift+P` or `Cmd+Shift+P` on macOS).
+3. Search for **"Install from VSIX..."**.
+4. Select the downloaded `.vsix` file to install the extension.
 
-## Requirements
+### Usage:
 
-If you have any requirements or dependencies, add a section describing those and how to install and configure them.
+- **Add indentation (4 spaces)**:
+  1. Select the lines you want to indent.
+  2. Press **Ctrl+Shift+Space** (or **Cmd+Shift+Space** on macOS) or use the **Add 4 Spaces to Selected Lines** command in the **Command Palette**.
 
-## Extension Settings
+- **Remove indentation (4 spaces)**:
+  1. Select the lines you want to un-indent.
+  2. Press **Ctrl+Shift+Backspace** (or **Cmd+Shift+Backspace** on macOS) or use the **Remove 4 Spaces from Selected Lines** command in the **Command Palette**.
 
-Include if your extension adds any VS Code settings through the `contributes.configuration` extension point.
+### Example Use Cases:
+- **Markdown lists**: Nest or un-nest items in bullet-point or numbered lists.
+- **Headings**: Adjust nested headings in Markdown documents.
+- **Code blocks**: Quickly indent or un-indent code or inline code sections.
 
-For example:
+### License:
+This extension is licensed under the MIT License.
 
-This extension contributes the following settings:
-
-* `myExtension.enable`: Enable/disable this extension.
-* `myExtension.thing`: Set to `blah` to do something.
-
-## Known Issues
-
-Calling out known issues can help limit users opening duplicate issues against your extension.
-
-## Release Notes
-
-Users appreciate release notes as you update your extension.
-
-### 1.0.0
-
-Initial release of ...
-
-### 1.0.1
-
-Fixed issue #.
-
-### 1.1.0
-
-Added features X, Y, and Z.
-
----
-
-## Following extension guidelines
-
-Ensure that you've read through the extensions guidelines and follow the best practices for creating your extension.
-
-* [Extension Guidelines](https://code.visualstudio.com/api/references/extension-guidelines)
-
-## Working with Markdown
-
-You can author your README using Visual Studio Code. Here are some useful editor keyboard shortcuts:
-
-* Split the editor (`Cmd+\` on macOS or `Ctrl+\` on Windows and Linux).
-* Toggle preview (`Shift+Cmd+V` on macOS or `Shift+Ctrl+V` on Windows and Linux).
-* Press `Ctrl+Space` (Windows, Linux, macOS) to see a list of Markdown snippets.
-
-## For more information
-
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
-
-**Enjoy!**
+### Contributing:
+If you'd like to contribute to **Nested**, feel free to fork the repository and submit a pull request!
