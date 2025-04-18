@@ -17,7 +17,7 @@
 
 ### Option 3: Install Directly from GitHub:
 1. Download the latest `.vsix` package from the [GitHub Releases page](https://github.com/adamovera/nested/releases).
-2. In VS Code, open the **Command Palette** (`Ctrl+Shift+P` or `Cmd+Shift+P` on macOS).
+2. In VS Code, open the **Command Palette** (`Ctrl+Shift+P` on Windows/Linux or `Cmd+Shift+P` on macOS).
 3. Search for **"Install from VSIX..."**.
 4. Select the downloaded `.vsix` file to install the extension.
 
@@ -25,11 +25,11 @@
 
 ### Add Indentation (4 spaces):
 1. Select the lines you want to indent.
-2. Press `Ctrl+Shift+Space` (Windows/Linux) or `Cmd+Shift+Space` (Mac) or use the **Add 4 Spaces to Selected Lines** command in the **Command Palette**.
+2. Press `Ctrl+Shift+Space` (Windows/Linux) or `Cmd+Shift+Space` (macOS) or use the **Add 4 Spaces to Selected Lines** command in the **Command Palette**.
 
 ### Remove Indentation (4 spaces):
 1. Select the lines you want to un-indent.
-2. Press `Ctrl+Shift+Backspace` (Windows/Linux) or `Cmd+Shift+Backspace` (Mac) or use the **Remove 4 Spaces from Selected Lines** command in the **Command Palette**.
+2. Press `Ctrl+Shift+Backspace` (Windows/Linux) or `Cmd+Shift+Backspace` (macOS) or use the **Remove 4 Spaces from Selected Lines** command in the **Command Palette**.
 
 ## Example Use Cases
 - **Markdown lists**: Nest or un-nest items in bullet-point or numbered lists.
