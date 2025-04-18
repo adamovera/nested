@@ -2,7 +2,7 @@
   "name": "nested",
   "displayName": "Nested",
   "description": "A VSCode extension for nesting and un-nesting items in Markdown.",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "publisher": "AdamOvera",
   "engines": {
     "vscode": "^1.99.0"
