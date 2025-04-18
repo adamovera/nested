@@ -6,8 +6,8 @@
 
 ## Installation
 
-### Option 1: Install from the VS Code Marketplace:
-1. Find **"Nested"** in the [VS Code Marketplace](https://marketplace.visualstudio.com/items?itemName=AdamOvera.nested).
+### Option 1: Install from the VSCode Marketplace:
+1. Find **"Nested"** in the [VSCode Marketplace](https://marketplace.visualstudio.com/items?itemName=AdamOvera.nested).
 2. Click **Install**.
 
 ### Option 2: Install using the Command Palette:
@@ -17,7 +17,7 @@
 
 ### Option 3: Install Directly from GitHub:
 1. Download the latest `.vsix` package from the [GitHub Releases page](https://github.com/adamovera/nested/releases).
-2. In VS Code, open the **Command Palette** (`Ctrl+Shift+P` on Windows/Linux or `Cmd+Shift+P` on macOS).
+2. In VSCode, open the **Command Palette** (`Ctrl+Shift+P` on Windows/Linux or `Cmd+Shift+P` on macOS).
 3. Search for **"Install from VSIX..."**.
 4. Select the downloaded `.vsix` file to install the extension.
 
