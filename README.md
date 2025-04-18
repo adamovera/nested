@@ -2,7 +2,7 @@
 
 ![Nested Logo](images/nested-logo.png)
 
-**Nested** is a VS Code extension designed to make working with **Markdown** files easier. With **Nested**, you can quickly **nest and un-nest items** in your Markdown documents by adding or removing **4 spaces** at the beginning of selected lines.
+**Nested** is a VSCode extension designed to make working with **Markdown** files easier. With **Nested**, you can quickly **nest and un-nest items** in your Markdown documents by adding or removing **4 spaces** at the beginning of selected lines.
 
 ### Key Features:
 - **Add 4 spaces** to the beginning of the selected lines to **nest** items.
@@ -18,7 +18,12 @@
 1. Find **"Nested"** in the [VS Code Marketplace](https://marketplace.visualstudio.com/items?itemName=AdamOvera.nested).
 2. Click **Install**.
 
-#### **Option 2: Install Directly from GitHub**
+#### **Option 2: Install using the Command Palette**
+1. Open the Command Palette (`Ctrl+Shift+P` or `Cmd+Shift+P` on macOS).
+2. Type: `ext install AdamOvera.nested`.
+3. Press **Enter** to install.
+
+#### **Option 3: Install Directly from GitHub**
 1. Download the latest `.vsix` package from the [GitHub Releases page](https://github.com/adamovera/nested/releases).
 2. In VS Code, open the **Command Palette** (`Ctrl+Shift+P` or `Cmd+Shift+P` on macOS).
 3. Search for **"Install from VSIX..."**.
