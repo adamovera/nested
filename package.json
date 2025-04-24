@@ -2,7 +2,7 @@
   "name": "nested",
   "displayName": "Nested",
   "description": "A VSCode extension for nesting and un-nesting items in Markdown.",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "publisher": "AdamOvera",
   "engines": {
     "vscode": "^1.99.0"
@@ -29,13 +29,13 @@
     "keybindings": [
       {
         "command": "nested.addIndent",
-        "key": "ctrl+shift+space", 
+        "key": "ctrl+shift+space",
         "mac": "cmd+shift+space",
         "when": "editorTextFocus"
       },
       {
         "command": "nested.removeIndent",
-        "key": "ctrl+shift+backspace", 
+        "key": "ctrl+shift+backspace",
         "mac": "cmd+shift+backspace",
         "when": "editorTextFocus"
       }

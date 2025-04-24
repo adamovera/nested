@@ -4,6 +4,12 @@
 
 **Nested** is a VSCode extension designed to make working with **Markdown** files easier. With **Nested**, you can quickly **nest and un-nest items** in your Markdown documents by adding or removing **4 spaces** at the beginning of selected lines.
 
+## Key Features
+- **Add 4 spaces** to the beginning of selected lines to **nest** items.
+- **Remove 4 spaces** from the beginning of selected lines to **un-nest** items.
+- **Keyboard shortcuts** for both actions.
+- **No indentation** is applied to **empty lines**.
+
 ## Installation
 
 ### Option 1: Install from the VSCode Marketplace:
@@ -36,8 +42,8 @@
 - **Headings**: Adjust nested headings in Markdown documents.
 - **Code blocks**: Quickly indent or un-indent code or inline code sections.
 
-## License:
+## License
 This extension is licensed under the MIT License.
 
-## Contributing:
+## Contributing
 If you'd like to contribute to **Nested**, feel free to fork the repository and submit a pull request!
